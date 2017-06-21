@@ -91,7 +91,7 @@ Layer 4: Fully Connected, input 120, output 84.
 Layer 5: Fully Connected (Logits), input 84, output 43 i.e. numer of classes.
 
 
-####3. Training the model
+#### 3. Training the model
 
 To train the model, I used following
 
@@ -100,7 +100,7 @@ To train the model, I used following
 * Batch size - 200
 * Learning Rate - 0.0009
 
-####4. Approach and Final results
+#### 4. Approach and Final results
 
 It was not easy to get the final acuracy 0.93 but after trial and error achieved slightly better accuracy then 0.93.
 
@@ -125,7 +125,7 @@ Here are five German traffic signs that I found on the web:
 
 The model was able to correctly guess all 5 traffic signs, which gives an accuracy of 100%. Are the test images chosen were too easy to clasify? May be, but I am happy with 100% accuracy :) 
 
-For the top 5 softmax probabilities and final performance, kindly refer to the output of 45 & 45 cells of Ipython notebook, or please click on below link to view HTML version.
+For the top 5 softmax probabilities and final performance, kindly refer to the output of 44 & 45 cells of Ipython notebook, or please click on below link to view HTML version.
 
  [HTML Version of Notebook](http://htmlpreview.github.io/?https://github.com/anilsirish/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.html)
 

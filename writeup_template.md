@@ -133,7 +133,7 @@ Following are the top 5 softmax probabilities of above images.
  4. [ 0.993,  0.007,  0.000,  0.000,  0.000]
  5. [ 1.000,  0.000,  0.000,  0.000,  0.000] 
 
-Please refer to the output of cells 44 & 45 (in IPython notebook or HTML version) where these softmax probabilities and final performance are calculated.
+Please refer to the output of cells 39 & 40 (in IPython notebook or HTML version) where these softmax probabilities and final performance are calculated.
 
  [HTML Version of Notebook](http://htmlpreview.github.io/?https://github.com/anilsirish/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.html)
 

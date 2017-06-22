@@ -125,7 +125,15 @@ Here are five German traffic signs that I found on the web:
 
 The model was able to correctly guess all 5 traffic signs, which gives an accuracy of 100%. Are the test images chosen were too easy to clasify? May be, but I am happy with 100% accuracy :) 
 
-For the top 5 softmax probabilities and final performance, kindly refer to the output of 44 & 45 cells of Ipython notebook, or please click on below link to view HTML version.
+Following are the top 5 softmax probabilities of above images.
+
+ 1. [ 1.000,  0.000,  0.000,  0.000,  0.000] 
+ 2. [ 0.995,  0.005,  0.000,  0.000,  0.000] 
+ 3. [ 0.994,  0.006,  0.000,  0.000,  0.000] 
+ 4. [ 0.993,  0.007,  0.000,  0.000,  0.000]
+ 5. [ 1.000,  0.000,  0.000,  0.000,  0.000] 
+
+Please refer to the output of cells 44 & 45 (in IPython notebook or HTML version) where these softmax probabilities and final performance are calculated.
 
  [HTML Version of Notebook](http://htmlpreview.github.io/?https://github.com/anilsirish/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.html)
 

@@ -11802,7 +11802,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load pickled data</span>
@@ -11863,7 +11863,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -11943,7 +11943,7 @@ Number of classes = 43
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Data exploration visualization code goes here.</span>
@@ -11964,28 +11964,25 @@ Number of classes = 43
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[29]:</div>
+<div class="prompt output_prompt">Out[24]:</div>
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>(array([  180.,  1980.,  2010.,  1260.,  1770.,  1650.,   360.,  1290.,
-         1260.,  1320.,  1800.,  1170.,  1890.,  1920.,   690.,   540.,
-          360.,   990.,  1080.,   180.,   300.,   270.,   330.,   450.,
-          240.,  1350.,   540.,   210.,   480.,   240.,   390.,   690.,
-          210.,   599.,   360.,  1080.,   330.,   180.,  1860.,   270.,
-          300.,   210.,   210.]),
- array([  0.        ,   0.97674419,   1.95348837,   2.93023256,
-          3.90697674,   4.88372093,   5.86046512,   6.8372093 ,
-          7.81395349,   8.79069767,   9.76744186,  10.74418605,
-         11.72093023,  12.69767442,  13.6744186 ,  14.65116279,
-         15.62790698,  16.60465116,  17.58139535,  18.55813953,
-         19.53488372,  20.51162791,  21.48837209,  22.46511628,
-         23.44186047,  24.41860465,  25.39534884,  26.37209302,
-         27.34883721,  28.3255814 ,  29.30232558,  30.27906977,
-         31.25581395,  32.23255814,  33.20930233,  34.18604651,
-         35.1627907 ,  36.13953488,  37.11627907,  38.09302326,
-         39.06976744,  40.04651163,  41.02325581,  42.        ]),
+<pre>(array([ 180.000,  1980.000,  2010.000,  1260.000,  1770.000,  1650.000,
+         360.000,  1290.000,  1260.000,  1320.000,  1800.000,  1170.000,
+         1890.000,  1920.000,  690.000,  540.000,  360.000,  990.000,
+         1080.000,  180.000,  300.000,  270.000,  330.000,  450.000,
+         240.000,  1350.000,  540.000,  210.000,  480.000,  240.000,
+         390.000,  690.000,  210.000,  599.000,  360.000,  1080.000,
+         330.000,  180.000,  1860.000,  270.000,  300.000,  210.000,
+         210.000]),
+ array([ 0.000,  0.977,  1.953,  2.930,  3.907,  4.884,  5.860,  6.837,
+         7.814,  8.791,  9.767,  10.744,  11.721,  12.698,  13.674,  14.651,
+         15.628,  16.605,  17.581,  18.558,  19.535,  20.512,  21.488,
+         22.465,  23.442,  24.419,  25.395,  26.372,  27.349,  28.326,
+         29.302,  30.279,  31.256,  32.233,  33.209,  34.186,  35.163,
+         36.140,  37.116,  38.093,  39.070,  40.047,  41.023,  42.000]),
  &lt;a list of 43 Patch objects&gt;)</pre>
 </div>
 
@@ -12151,7 +12148,7 @@ VdW7V/rxWZUhIEkazmqcDpIkDckQkKSGGQKS1DBDQJIaZghIUsMMAUlqmCEgSQ0zBCSpYf8fsqq9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Preprocess the data here. It is required to normalize the data. Other preprocessing steps could include </span>
@@ -12159,6 +12156,7 @@ VdW7V/rxWZUhIEkazmqcDpIkDckQkKSGGQKS1DBDQJIaZghIUsMMAUlqmCEgSQ0zBCSpYf8fsqq9
 <span class="c1">### Feel free to use as many code cells as needed.</span>
 
 <span class="kn">import</span> <span class="nn">cv2</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
 <span class="k">def</span> <span class="nf">preprocess</span><span class="p">(</span><span class="n">images</span><span class="p">):</span>
     
@@ -12188,7 +12186,7 @@ VdW7V/rxWZUhIEkazmqcDpIkDckQkKSGGQKS1DBDQJIaZghIUsMMAUlqmCEgSQ0zBCSpYf8fsqq9
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Pre-process training data</span>
@@ -12244,7 +12242,7 @@ Shape of Validation data after processing :  (4410, 32, 32, 1)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Generate additional data</span>
@@ -12317,7 +12315,7 @@ Completed generating new data.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">bins</span> <span class="o">=</span> <span class="n">n_classes</span><span class="p">)</span>
@@ -12332,28 +12330,25 @@ Completed generating new data.
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[33]:</div>
+<div class="prompt output_prompt">Out[28]:</div>
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>(array([  909.,  1980.,  2010.,  1260.,  1770.,  1650.,   909.,  1290.,
-         1260.,  1320.,  1800.,  1170.,  1890.,  1920.,   909.,   909.,
-          909.,   990.,  1080.,   909.,   909.,   909.,   909.,   909.,
-          909.,  1350.,   909.,   909.,   909.,   909.,   909.,   909.,
-          909.,   909.,   909.,  1080.,   909.,   909.,  1860.,   909.,
-          909.,   909.,   909.]),
- array([  0.        ,   0.97674419,   1.95348837,   2.93023256,
-          3.90697674,   4.88372093,   5.86046512,   6.8372093 ,
-          7.81395349,   8.79069767,   9.76744186,  10.74418605,
-         11.72093023,  12.69767442,  13.6744186 ,  14.65116279,
-         15.62790698,  16.60465116,  17.58139535,  18.55813953,
-         19.53488372,  20.51162791,  21.48837209,  22.46511628,
-         23.44186047,  24.41860465,  25.39534884,  26.37209302,
-         27.34883721,  28.3255814 ,  29.30232558,  30.27906977,
-         31.25581395,  32.23255814,  33.20930233,  34.18604651,
-         35.1627907 ,  36.13953488,  37.11627907,  38.09302326,
-         39.06976744,  40.04651163,  41.02325581,  42.        ]),
+<pre>(array([ 909.000,  1980.000,  2010.000,  1260.000,  1770.000,  1650.000,
+         909.000,  1290.000,  1260.000,  1320.000,  1800.000,  1170.000,
+         1890.000,  1920.000,  909.000,  909.000,  909.000,  990.000,
+         1080.000,  909.000,  909.000,  909.000,  909.000,  909.000,
+         909.000,  1350.000,  909.000,  909.000,  909.000,  909.000,
+         909.000,  909.000,  909.000,  909.000,  909.000,  1080.000,
+         909.000,  909.000,  1860.000,  909.000,  909.000,  909.000,
+         909.000]),
+ array([ 0.000,  0.977,  1.953,  2.930,  3.907,  4.884,  5.860,  6.837,
+         7.814,  8.791,  9.767,  10.744,  11.721,  12.698,  13.674,  14.651,
+         15.628,  16.605,  17.581,  18.558,  19.535,  20.512,  21.488,
+         22.465,  23.442,  24.419,  25.395,  26.372,  27.349,  28.326,
+         29.302,  30.279,  31.256,  32.233,  33.209,  34.186,  35.163,
+         36.140,  37.116,  38.093,  39.070,  40.047,  41.023,  42.000]),
  &lt;a list of 43 Patch objects&gt;)</pre>
 </div>
 
@@ -12474,7 +12469,7 @@ ZghIUscMAUnqmCEgSR0zBCSpY4aAJHXs/wMcsKWe1jaUfQAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Define your architecture here.</span>
@@ -12495,7 +12490,7 @@ ZghIUscMAUnqmCEgSR0zBCSpY4aAJHXs/wMcsKWe1jaUfQAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">tensorflow.contrib.layers</span> <span class="k">import</span> <span class="n">flatten</span>
@@ -12589,7 +12584,7 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Train your model here.</span>
@@ -12612,7 +12607,7 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Setting learning rate, loss functions, and optimizer</span>
@@ -12633,7 +12628,7 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#model evaluation</span>
@@ -12660,7 +12655,7 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#train the model</span>
@@ -12700,56 +12695,56 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Training...
 
-EPOCH 1 ...Validation Accuracy = 0.492
-EPOCH 2 ...Validation Accuracy = 0.722
-EPOCH 3 ...Validation Accuracy = 0.814
-EPOCH 4 ...Validation Accuracy = 0.840
-EPOCH 5 ...Validation Accuracy = 0.874
-EPOCH 6 ...Validation Accuracy = 0.882
-EPOCH 7 ...Validation Accuracy = 0.891
-EPOCH 8 ...Validation Accuracy = 0.899
-EPOCH 9 ...Validation Accuracy = 0.904
-EPOCH 10 ...Validation Accuracy = 0.900
+EPOCH 1 ...Validation Accuracy = 0.498
+EPOCH 2 ...Validation Accuracy = 0.755
+EPOCH 3 ...Validation Accuracy = 0.820
+EPOCH 4 ...Validation Accuracy = 0.861
+EPOCH 5 ...Validation Accuracy = 0.865
+EPOCH 6 ...Validation Accuracy = 0.884
+EPOCH 7 ...Validation Accuracy = 0.890
+EPOCH 8 ...Validation Accuracy = 0.903
+EPOCH 9 ...Validation Accuracy = 0.898
+EPOCH 10 ...Validation Accuracy = 0.899
 EPOCH 11 ...Validation Accuracy = 0.910
-EPOCH 12 ...Validation Accuracy = 0.911
+EPOCH 12 ...Validation Accuracy = 0.924
 EPOCH 13 ...Validation Accuracy = 0.924
-EPOCH 14 ...Validation Accuracy = 0.919
-EPOCH 15 ...Validation Accuracy = 0.926
-EPOCH 16 ...Validation Accuracy = 0.927
-EPOCH 17 ...Validation Accuracy = 0.935
-EPOCH 18 ...Validation Accuracy = 0.931
-EPOCH 19 ...Validation Accuracy = 0.928
-EPOCH 20 ...Validation Accuracy = 0.934
-EPOCH 21 ...Validation Accuracy = 0.937
+EPOCH 14 ...Validation Accuracy = 0.929
+EPOCH 15 ...Validation Accuracy = 0.931
+EPOCH 16 ...Validation Accuracy = 0.930
+EPOCH 17 ...Validation Accuracy = 0.936
+EPOCH 18 ...Validation Accuracy = 0.936
+EPOCH 19 ...Validation Accuracy = 0.935
+EPOCH 20 ...Validation Accuracy = 0.937
+EPOCH 21 ...Validation Accuracy = 0.933
 EPOCH 22 ...Validation Accuracy = 0.939
-EPOCH 23 ...Validation Accuracy = 0.936
-EPOCH 24 ...Validation Accuracy = 0.933
-EPOCH 25 ...Validation Accuracy = 0.941
-EPOCH 26 ...Validation Accuracy = 0.943
-EPOCH 27 ...Validation Accuracy = 0.938
-EPOCH 28 ...Validation Accuracy = 0.942
-EPOCH 29 ...Validation Accuracy = 0.936
-EPOCH 30 ...Validation Accuracy = 0.939
-EPOCH 31 ...Validation Accuracy = 0.941
+EPOCH 23 ...Validation Accuracy = 0.939
+EPOCH 24 ...Validation Accuracy = 0.939
+EPOCH 25 ...Validation Accuracy = 0.940
+EPOCH 26 ...Validation Accuracy = 0.937
+EPOCH 27 ...Validation Accuracy = 0.945
+EPOCH 28 ...Validation Accuracy = 0.945
+EPOCH 29 ...Validation Accuracy = 0.944
+EPOCH 30 ...Validation Accuracy = 0.949
+EPOCH 31 ...Validation Accuracy = 0.949
 EPOCH 32 ...Validation Accuracy = 0.949
-EPOCH 33 ...Validation Accuracy = 0.942
-EPOCH 34 ...Validation Accuracy = 0.942
-EPOCH 35 ...Validation Accuracy = 0.942
-EPOCH 36 ...Validation Accuracy = 0.941
-EPOCH 37 ...Validation Accuracy = 0.947
-EPOCH 38 ...Validation Accuracy = 0.943
-EPOCH 39 ...Validation Accuracy = 0.943
-EPOCH 40 ...Validation Accuracy = 0.952
-EPOCH 41 ...Validation Accuracy = 0.947
-EPOCH 42 ...Validation Accuracy = 0.940
-EPOCH 43 ...Validation Accuracy = 0.949
-EPOCH 44 ...Validation Accuracy = 0.949
-EPOCH 45 ...Validation Accuracy = 0.943
-EPOCH 46 ...Validation Accuracy = 0.950
-EPOCH 47 ...Validation Accuracy = 0.949
+EPOCH 33 ...Validation Accuracy = 0.946
+EPOCH 34 ...Validation Accuracy = 0.952
+EPOCH 35 ...Validation Accuracy = 0.951
+EPOCH 36 ...Validation Accuracy = 0.952
+EPOCH 37 ...Validation Accuracy = 0.951
+EPOCH 38 ...Validation Accuracy = 0.951
+EPOCH 39 ...Validation Accuracy = 0.951
+EPOCH 40 ...Validation Accuracy = 0.953
+EPOCH 41 ...Validation Accuracy = 0.959
+EPOCH 42 ...Validation Accuracy = 0.945
+EPOCH 43 ...Validation Accuracy = 0.963
+EPOCH 44 ...Validation Accuracy = 0.962
+EPOCH 45 ...Validation Accuracy = 0.954
+EPOCH 46 ...Validation Accuracy = 0.959
+EPOCH 47 ...Validation Accuracy = 0.954
 EPOCH 48 ...Validation Accuracy = 0.951
-EPOCH 49 ...Validation Accuracy = 0.957
-EPOCH 50 ...Validation Accuracy = 0.942
+EPOCH 49 ...Validation Accuracy = 0.959
+EPOCH 50 ...Validation Accuracy = 0.952
 Model saved
 </pre>
 </div>
@@ -12761,7 +12756,7 @@ Model saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Test the model</span>
@@ -12816,7 +12811,7 @@ Model saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Load the images and plot them here.</span>
@@ -12846,7 +12841,7 @@ Model saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -13663,7 +13658,7 @@ fiEyipxfiIwi5xcio8j5hcgo/x9Qg4VTbApZrwAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Pre-process additional data</span>
@@ -13705,21 +13700,27 @@ Shape of Training data after processing :  (5, 32, 32, 1)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Run the predictions here and use the model to output the prediction for each image.</span>
 <span class="c1">### Make sure to pre-process the images with the same pre-processing pipeline used earlier.</span>
 <span class="c1">### Feel free to use as many code cells as needed.</span>
 
+<span class="n">softmax</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">softmax</span><span class="p">(</span><span class="n">logits</span><span class="p">)</span>     <span class="c1">#Update for re-submission, Using softmax probabilities</span>
+
 <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">Session</span><span class="p">()</span> <span class="k">as</span> <span class="n">sess</span><span class="p">:</span>
     <span class="n">saver</span><span class="o">.</span><span class="n">restore</span><span class="p">(</span><span class="n">sess</span><span class="p">,</span> <span class="n">tf</span><span class="o">.</span><span class="n">train</span><span class="o">.</span><span class="n">latest_checkpoint</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">))</span>
 
-    <span class="n">new_pics_classes</span> <span class="o">=</span> <span class="n">sess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">logits</span><span class="p">,</span> <span class="n">feed_dict</span><span class="o">=</span><span class="p">{</span><span class="n">x</span><span class="p">:</span> <span class="n">add_images_data_processed</span><span class="p">,</span> <span class="n">keep_prob</span> <span class="p">:</span> <span class="mf">1.0</span><span class="p">})</span>
+    <span class="c1">#Updated for re-submission, take softmax probabilities instead of logits</span>
+    <span class="c1">#new_pics_classes = sess.run(logits, feed_dict={x: add_images_data_processed, keep_prob : 1.0})</span>
+    <span class="n">new_pics_classes</span> <span class="o">=</span> <span class="n">sess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">softmax</span><span class="p">,</span> <span class="n">feed_dict</span><span class="o">=</span><span class="p">{</span><span class="n">x</span><span class="p">:</span> <span class="n">add_images_data_processed</span><span class="p">,</span> <span class="n">keep_prob</span> <span class="p">:</span> <span class="mf">1.0</span><span class="p">})</span>
     
 
     <span class="n">predicts</span> <span class="o">=</span> <span class="n">sess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">top_k</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">constant</span><span class="p">(</span><span class="n">new_pics_classes</span><span class="p">),</span> <span class="n">k</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="nb">sorted</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
     
+<span class="n">np</span><span class="o">.</span><span class="n">set_printoptions</span><span class="p">(</span><span class="n">formatter</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;float&#39;</span><span class="p">:</span> <span class="s1">&#39;</span><span class="si">{: 0.3f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">})</span>
+
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">predicts</span><span class="p">[</span><span class="mi">0</span><span class="p">])):</span>
     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Image&#39;</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="s1">&#39;probabilities:&#39;</span><span class="p">,</span> <span class="n">predicts</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="n">i</span><span class="p">],</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1"> and predicted classes:&#39;</span><span class="p">,</span> <span class="n">predicts</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">i</span><span class="p">])</span>
     
@@ -13747,8 +13748,8 @@ Shape of Training data after processing :  (5, 32, 32, 1)
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Image 0 probabilities: [ 41.552742    23.76588821  16.73110199  10.70069885   5.62810469] 
- and predicted classes: [27 11 18 26 28]
+<pre>Image 0 probabilities: [ 1.000  0.000  0.000  0.000  0.000] 
+ and predicted classes: [27 18 26 24 11]
 My Image
 </pre>
 </div>
@@ -14036,8 +14037,8 @@ mzeuKf8AAAAASUVORK5CYII=
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Image 1 probabilities: [ 15.04195213  11.09191895  10.11384106   3.65126586   1.50972807] 
- and predicted classes: [30 23 28 29 11]
+<pre>Image 1 probabilities: [ 0.995  0.005  0.000  0.000  0.000] 
+ and predicted classes: [30 23 28 20 29]
 My Image
 </pre>
 </div>
@@ -14331,8 +14332,8 @@ AAAAAElFTkSuQmCC
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Image 2 probabilities: [ 43.82220459  36.19527054  33.74448013  14.53713799  11.76950455] 
- and predicted classes: [18 26 27 11 24]
+<pre>Image 2 probabilities: [ 0.994  0.006  0.000  0.000  0.000] 
+ and predicted classes: [18 26 27 24 40]
 My Image
 </pre>
 </div>
@@ -14631,8 +14632,8 @@ Cn4hEkXBL0SiKPiFSJT/C6QqwqF3gVYzAAAAAElFTkSuQmCC
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Image 3 probabilities: [ 28.79957962  14.44043732  12.8206377    3.41381097   0.95976579] 
- and predicted classes: [ 1  2  4  5 38]
+<pre>Image 3 probabilities: [ 0.993  0.007  0.000  0.000  0.000] 
+ and predicted classes: [1 2 4 5 7]
 My Image
 </pre>
 </div>
@@ -14947,8 +14948,8 @@ jj3gqEHxPAAAAABJRU5ErkJggg==
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Image 4 probabilities: [ 16.10762787   4.45181227   3.94181609   1.70421195   1.45144284] 
- and predicted classes: [14 34 17 38 13]
+<pre>Image 4 probabilities: [ 1.000  0.000  0.000  0.000  0.000] 
+ and predicted classes: [14 13 33 15 38]
 My Image
 </pre>
 </div>
@@ -15268,7 +15269,7 @@ oij4hUgUBb8QiaLgFyJRFPxCJIqCX4hEUfALkSj/D+QZmNFZAeEiAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Calculate the accuracy for these 5 new images. </span>

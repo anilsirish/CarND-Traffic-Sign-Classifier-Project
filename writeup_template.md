@@ -18,11 +18,13 @@ The goals / steps of this project are the following:
 [image1]: ./Initial_Distib.png "Data Visualization 1"
 [image2]: ./Final_Distib.png "Data Visualization 1"
 [image3]: ./examples/grayscale.jpg "Grayscaling"
-[image4]: ./add_images/30.jpg "Traffic Sign 1"
-[image5]: ./add_images/exclam.jpg "Traffic Sign 2"
-[image6]: ./add_images/stop.jpg "Traffic Sign 3"
-[image7]: ./add_images/unknown.jpg "Traffic Sign 4"
-[image8]: ./add_images/walk.jpg "Traffic Sign 5"
+[image4]: ./add_images/walk.jpg "Traffic Sign 1"
+[image5]: ./add_images/unknown.jpg "Traffic Sign 2"
+[image6]: ./add_images/exclam.jpg "Traffic Sign 3"
+[image7]: ./add_images/30.jpg "Traffic Sign 4"
+[image8]: ./add_images/stop.jpg "Traffic Sign 5"
+
+
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
